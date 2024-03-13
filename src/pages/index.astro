@@ -5,14 +5,14 @@ import uclClubs from '../assets/ucl-clubs.json';
 import uelClubs from '../assets/uel-clubs.json';
 ---
 
-<Layout title="Football Club Crest">
-	<h2 class="text-lg mb-2">UCL</h2>
+<Layout title="Football Crest">
+	<h2 class="text-lg mb-2">Champions League</h2>
 	<div class="grid grid-cols-3 gap-4 sm:grid-cols-5 md:grid-cols-6 lg:grid-cols-7 xl:grid-cols-8 mb-6">
 		{uclClubs.map((club) => {
 			return <Crest abbr={club.abbr} name={club.name} imagePath={club.imagePath} />
 		})}
 	</div>
-	<h2 class="text-lg mb-2">UEL</h2>
+	<h2 class="text-lg mb-2">Europa League</h2>
 	<div class="grid grid-cols-3 gap-4 sm:grid-cols-5 md:grid-cols-6 lg:grid-cols-7 xl:grid-cols-8">
 		{uelClubs.map((club) => {
 			return <Crest abbr={club.abbr} name={club.name} imagePath={club.imagePath} />
