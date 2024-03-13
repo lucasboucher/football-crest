@@ -1,0 +1,19 @@
+---
+import LBLogotype from '../assets/lb-logotype.svg';
+import FootballIcon from '../assets/football-icon.svg';
+---
+
+<header class="fixed top-0 right-0 left-0 h-20 backdrop-blur-md">
+	<div class="flex justify-between h-full max-w-screen-xl mx-auto px-4">
+		<div class="flex items-center">
+			<img src={FootballIcon.src} alt="Football's icon" class="mr-2" />
+			<h1 class="text-xl">Football Club Crest</h1>
+		</div>
+		<div class="flex items-center">
+			<p class="text-slate-500 text-xs mr-1">by</p>
+			<a href="https://lucasboucher.fr" target="_blank">
+				<img src={LBLogotype.src} class="h-4 w-4" alt="Lucas Boucher's website" />
+			</a>
+		</div>
+	</div>
+</header>

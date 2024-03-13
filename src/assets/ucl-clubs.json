@@ -1,0 +1,162 @@
+[
+    {
+        "abbr": "BAY",
+        "name": "FC Bayern Munich",
+        "imagePath": "/src/assets/crests/FC Bayern München.svg"
+    },
+    {
+        "abbr": "CPH",
+        "name": "F.C. Copenhagen",
+        "imagePath": "/src/assets/crests/Logo_FC_Copenhagen_2023.svg"
+    },
+    {
+        "abbr": "GAL",
+        "name": "Galatasaray S.K.",
+        "imagePath": "/src/assets/crests/Galatasaray_Sports_Club_Logo.svg"
+    },
+    {
+        "abbr": "MUN",
+        "name": "Manchester United F.C.",
+        "imagePath": "/src/assets/crests/Logo_Manchester_United.svg"
+    },
+    {
+        "abbr": "ARS",
+        "name": "Arsenal F.C.",
+        "imagePath": "/src/assets/crests/Arsenal_FC.svg"
+    },
+    {
+        "abbr": "PSV",
+        "name": "PSV Eindhoven",
+        "imagePath": "/src/assets/crests/Logo_psv_eindhoven.svg"
+    },
+    {
+        "abbr": "LEN",
+        "name": "RC Lens",
+        "imagePath": "/src/assets/crests/Logo_RC_Lens.svg"
+    },
+    {
+        "abbr": "SEV",
+        "name": "Sevilla FC",
+        "imagePath": "/src/assets/crests/Logo_Sevilla_FC.svg"
+    },
+    {
+        "abbr": "RMA",
+        "name": "Real Madrid CF",
+        "imagePath": "/src/assets/crests/Logo_Real_Madrid.svg"
+    },
+    {
+        "abbr": "NAP",
+        "name": "SSC Napoli",
+        "imagePath": "/src/assets/crests/SSC_Neapel.svg"
+    },
+    {
+        "abbr": "BRA",
+        "name": "S.C. Braga",
+        "imagePath": "/src/assets/crests/SC_Braga_(logo).svg"
+    },
+    {
+        "abbr": "UBE",
+        "name": "1. FC Union Berlin",
+        "imagePath": "/src/assets/crests/1._FC_Union_Berlin_-_Logo.svg"
+    },
+    {
+        "abbr": "RSO",
+        "name": "Real Sociedad",
+        "imagePath": "/src/assets/crests/Real_Sociedad_logo.svg"
+    },
+    {
+        "abbr": "INT",
+        "name": "Inter Milan",
+        "imagePath": "/src/assets/crests/FC_Internazionale_Milano_2021.svg"
+    },
+    {
+        "abbr": "BEN",
+        "name": "S.L. Benfica",
+        "imagePath": "/src/assets/crests/logo_slb-01.svg"
+    },
+    {
+        "abbr": "SAL",
+        "name": "FC Red Bull Salzburg",
+        "imagePath": "/src/assets/crests/Red_Bull_Salzburg_logo.svg"
+    },
+    {
+        "abbr": "ATM",
+        "name": "Atlético Madrid",
+        "imagePath": "/src/assets/crests/Logo_Atlético_Madrid_2017.svg"
+    },
+    {
+        "abbr": "LAZ",
+        "name": "SS Lazio",
+        "imagePath": "/src/assets/crests/Logo_Lazio.svg"
+    },
+    {
+        "abbr": "FEY",
+        "name": "Feyenoord",
+        "imagePath": "/src/assets/crests/Logo_Feyenoord_Rotterdam.svg"
+    },
+    {
+        "abbr": "CEL",
+        "name": "Celtic F.C.",
+        "imagePath": "/src/assets/crests/Celtic_fc.svg"
+    },
+    {
+        "abbr": "DOR",
+        "name": "Borussia Dortmund",
+        "imagePath": "/src/assets/crests/Borussia_Dortmund_logo.svg"
+    },
+    {
+        "abbr": "PSG",
+        "name": "Paris Saint-Germain F.C.",
+        "imagePath": "/src/assets/crests/Paris_Saint-Germain_Logo.svg"
+    },
+    {
+        "abbr": "MIL",
+        "name": "AC Milan",
+        "imagePath": "/src/assets/crests/Logo_of_AC_Milan.svg"
+    },
+    {
+        "abbr": "NEW",
+        "name": "Newcastle United F.C.",
+        "imagePath": "/src/assets/crests/Logo_Newcastle_United.svg"
+    },
+    {
+        "abbr": "MCI",
+        "name": "Manchester City F.C.",
+        "imagePath": "/src/assets/crests/Logo_Manchester_City_2016.svg"
+    },
+    {
+        "abbr": "LEI",
+        "name": "RB Leipzig",
+        "imagePath": "/src/assets/crests/RB_Leipzig_2014_logo.svg"
+    },
+    {
+        "abbr": "YB",
+        "name": "BSC Young Boys",
+        "imagePath": "/src/assets/crests/BSC_Young_Boys.svg"
+    },
+    {
+        "abbr": "ZVE",
+        "name": "Red Star Belgrade",
+        "imagePath": "/src/assets/crests/Grb-fk-crvena-zvezda.svg"
+    },
+    {
+        "abbr": "BAR",
+        "name": "FC Barcelona",
+        "imagePath": "/src/assets/crests/Logo_FC_Barcelona.svg"
+    },
+    {
+        "abbr": "POR",
+        "name": "FC Porto",
+        "imagePath": "/src/assets/crests/FC_Porto_Vitalis_logo.svg"
+    },
+    {
+        "abbr": "SHK",
+        "name": "FC Shakhtar Donetsk",
+        "imagePath": "/src/assets/crests/FC_Shakhtar_Donetsk_(logo).svg"
+    },
+    {
+        "abbr": "ANT",
+        "name": "Royal Antwerp F.C.",
+        "imagePath": "/src/assets/crests/Royal_Antwerp_Football_Club_(logo).svg"
+    }
+]

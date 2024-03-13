@@ -1,0 +1,24 @@
+---
+import type { ImageMetadata } from 'astro';
+import { Image } from 'astro:assets';
+
+interface Props {
+	abbr: string;
+	name: string;
+	imagePath: string;
+}
+
+const { abbr, name, imagePath } = Astro.props;
+const images = import.meta.glob<{ default: ImageMetadata }>('/src/assets/crests/*.svg')
+if (!images[imagePath]) throw new Error(`"${imagePath}" doesn't exist in folder: "src/assets/*.svg"`);
+---
+
+<div class="flex flex-col rounded-lg items-center border border-slate-900 py-12 px-4 hover:bg-slate-900 hover:border-slate-800 transition-colors cursor-pointer">
+	<Image src={images[imagePath]()} alt={`${name}'s crest'`} loading="lazy" class="h-6 w-6 mb-2 border border-dotted border-violet-700" />
+	<h2 class="font-bold uppercase text-sm select-all">
+		{abbr}
+	</h2>
+	<p class="inline-block w-full text-slate-500 text-xs truncate text-center select-all">
+		{name}
+	</p>
+</div>

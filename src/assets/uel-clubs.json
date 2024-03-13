@@ -1,0 +1,162 @@
+[
+    {
+        "abbr": "WHU",
+        "name": "West Ham United F.C.",
+        "imagePath": "/src/assets/crests/West_Ham_United_FC_logo.svg"
+    },
+    {
+        "abbr": "FRE",
+        "name": "SC Freiburg",
+        "imagePath": "/src/assets/crests/SC_Freiburg_logo.svg"
+    },
+    {
+        "abbr": "OLY",
+        "name": "Olympiacos F.C.",
+        "imagePath": "/src/assets/crests/Olympiacos_FC_logo.svg"
+    },
+    {
+        "abbr": "TSC",
+        "name": "Fudbalski klub TSC",
+        "imagePath": "/src/assets/crests/FK_TSC_Backa_Topola.svg"
+    },
+    {
+        "abbr": "BHA",
+        "name": "Brighton & Hove Albion F.C.",
+        "imagePath": "/src/assets/crests/Brighton_&_Hove_Albion_logo.svg"
+    },
+    {
+        "abbr": "MAR",
+        "name": "Olympique de Marseille",
+        "imagePath": "/src/assets/crests/Olympique_Marseille_logo.svg"
+    },
+    {
+        "abbr": "AJX",
+        "name": "AFC Ajax",
+        "imagePath": "/src/assets/crests/Ajax_Amsterdam.svg"
+    },
+    {
+        "abbr": "AEK",
+        "name": "AEK Athens F.C.",
+        "imagePath": "/src/assets/crests/AEK_Athens_FC_logo.svg"
+    },
+    {
+        "abbr": "RAN",
+        "name": "Rangers F.C.",
+        "imagePath": "/src/assets/crests/Rangers_FC.svg"
+    },
+    {
+        "abbr": "SPP",
+        "name": "AC Sparta Prague",
+        "imagePath": "/src/assets/crests/AC-Sparta-LOGO2021.svg"
+    },
+    {
+        "abbr": "BET",
+        "name": "Real Betis",
+        "imagePath": "/src/assets/crests/Real_betis_logo.svg"
+    },
+    {
+        "abbr": "ARL",
+        "name": "Aris Limassol FC",
+        "imagePath": "/src/assets/crests/Aris_Limassol.svg"
+    },
+    {
+        "abbr": "ATA",
+        "name": "Atalanta BC",
+        "imagePath": "/src/assets/crests/AtalantaBC.svg"
+    },
+    {
+        "abbr": "SPO",
+        "name": "Sporting CP",
+        "imagePath": "/src/assets/crests/Sporting_Clube_de_Portugal_(Logo).svg"
+    },
+    {
+        "abbr": "STM",
+        "name": "SK Sturm Graz",
+        "imagePath": "/src/assets/crests/SK_Sturm_Graz_logo.svg"
+    },
+    {
+        "abbr": "RAK",
+        "name": "Raków Częstochowa",
+        "imagePath": "/src/assets/crests/Rks_rakow_crest_ai.svg"
+    },
+    {
+        "abbr": "LIV",
+        "name": "Liverpool F.C.",
+        "imagePath": "/src/assets/crests/Liverpool_FC.svg"
+    },
+    {
+        "abbr": "TOU",
+        "name": "Toulouse FC",
+        "imagePath": "/src/assets/crests/Toulouse_FC_2018_logo.svg"
+    },
+    {
+        "abbr": "USG",
+        "name": "Royale Union Saint-Gilloise",
+        "imagePath": "/src/assets/crests/Royale_Union_Saint-Gilloise_logo.svg"
+    },
+    {
+        "abbr": "LASK",
+        "name": "Linzer ASK",
+        "imagePath": "/src/assets/crests/LASK-Logo_2023.svg"
+    },
+    {
+        "abbr": "VIL",
+        "name": "Villarreal CF",
+        "imagePath": "/src/assets/crests/Villarreal_CF_logo.svg"
+    },
+    {
+        "abbr": "REN",
+        "name": "Stade Rennais F.C.",
+        "imagePath": "/src/assets/crests/Logo_Stade_Rennais_FC.svg"
+    },
+    {
+        "abbr": "MHA",
+        "name": "Maccabi Haifa F.C.",
+        "imagePath": "/src/assets/crests/Maccabi_Haifa_FC_(logo).svg"
+    },
+    {
+        "abbr": "PAN",
+        "name": "Panathinaikos F.C.",
+        "imagePath": "/src/assets/crests/Panathinaikos_F.C._logo.svg"
+    },
+    {
+        "abbr": "SLP",
+        "name": "SK Slavia Prague",
+        "imagePath": "/src/assets/crests/SK_Slavia_Praha.svg"
+    },
+    {
+        "abbr": "ROM",
+        "name": "AS Roma",
+        "imagePath": "/src/assets/crests/AS_Roma_Logo_2017.svg"
+    },
+    {
+        "abbr": "SER",
+        "name": "Servette FC",
+        "imagePath": "/src/assets/crests/Servette_FC_Etoile.svg"
+    },
+    {
+        "abbr": "SHE",
+        "name": "FC Sheriff Tiraspol",
+        "imagePath": "/src/assets/crests/FC_Sheriff.svg"
+    },
+    {
+        "abbr": "LEV",
+        "name": "Bayer 04 Leverkusen",
+        "imagePath": "/src/assets/crests/Bayer_04_Leverkusen_logo.svg"
+    },
+    {
+        "abbr": "QRB",
+        "name": "Qarabağ FK",
+        "imagePath": "/src/assets/crests/Qarabag_FK_(logo).svg"
+    },
+    {
+        "abbr": "MOL",
+        "name": "Molde FK",
+        "imagePath": "/src/assets/crests/Molde_Fotball_Logo.svg"
+    },
+    {
+        "abbr": "HAC",
+        "name": "BK Häcken",
+        "imagePath": "/src/assets/crests/BK_Hacken_logo.svg"
+    }
+]
