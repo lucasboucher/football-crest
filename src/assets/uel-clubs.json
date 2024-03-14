@@ -2,42 +2,42 @@
     {
         "abbr": "WHU",
         "name": "West Ham United F.C.",
-        "imagePath": "/src/assets/crests/West_Ham_United_FC_logo.svg"
+        "imagePath": "/src/assets/crests/West_Ham_United_FC.svg"
     },
     {
         "abbr": "FRE",
         "name": "SC Freiburg",
-        "imagePath": "/src/assets/crests/SC_Freiburg_logo.svg"
+        "imagePath": "/src/assets/crests/SC_Freiburg.svg"
     },
     {
         "abbr": "OLY",
         "name": "Olympiacos F.C.",
-        "imagePath": "/src/assets/crests/Olympiacos_FC_logo.svg"
+        "imagePath": "/src/assets/crests/Olympiacos_FC.svg"
     },
     {
         "abbr": "TSC",
         "name": "Fudbalski klub TSC",
-        "imagePath": "/src/assets/crests/FK_TSC_Backa_Topola.svg"
+        "imagePath": "/src/assets/crests/Fudbalski_klub_TSC.svg"
     },
     {
         "abbr": "BHA",
         "name": "Brighton & Hove Albion F.C.",
-        "imagePath": "/src/assets/crests/Brighton_&_Hove_Albion_logo.svg"
+        "imagePath": "/src/assets/crests/Brighton_Hove_Albion_FC.svg"
     },
     {
         "abbr": "MAR",
         "name": "Olympique de Marseille",
-        "imagePath": "/src/assets/crests/Olympique_Marseille_logo.svg"
+        "imagePath": "/src/assets/crests/Olympique_de_Marseille.svg"
     },
     {
         "abbr": "AJX",
         "name": "AFC Ajax",
-        "imagePath": "/src/assets/crests/Ajax_Amsterdam.svg"
+        "imagePath": "/src/assets/crests/AFC_Ajax.svg"
     },
     {
         "abbr": "AEK",
         "name": "AEK Athens F.C.",
-        "imagePath": "/src/assets/crests/AEK_Athens_FC_logo.svg"
+        "imagePath": "/src/assets/crests/AEK_Athens_FC.svg"
     },
     {
         "abbr": "RAN",
@@ -47,37 +47,37 @@
     {
         "abbr": "SPP",
         "name": "AC Sparta Prague",
-        "imagePath": "/src/assets/crests/AC-Sparta-LOGO2021.svg"
+        "imagePath": "/src/assets/crests/AC_Sparta_Prague.svg"
     },
     {
         "abbr": "BET",
         "name": "Real Betis",
-        "imagePath": "/src/assets/crests/Real_betis_logo.svg"
+        "imagePath": "/src/assets/crests/Real_Betis.svg"
     },
     {
         "abbr": "ARL",
         "name": "Aris Limassol FC",
-        "imagePath": "/src/assets/crests/Aris_Limassol.svg"
+        "imagePath": "/src/assets/crests/Aris_Limassol_FC.svg"
     },
     {
         "abbr": "ATA",
         "name": "Atalanta BC",
-        "imagePath": "/src/assets/crests/AtalantaBC.svg"
+        "imagePath": "/src/assets/crests/Atalanta_BC.svg"
     },
     {
         "abbr": "SPO",
         "name": "Sporting CP",
-        "imagePath": "/src/assets/crests/Sporting_Clube_de_Portugal_(Logo).svg"
+        "imagePath": "/src/assets/crests/Sporting_CP.svg"
     },
     {
         "abbr": "STM",
         "name": "SK Sturm Graz",
-        "imagePath": "/src/assets/crests/SK_Sturm_Graz_logo.svg"
+        "imagePath": "/src/assets/crests/SK_Sturm_Graz.svg"
     },
     {
         "abbr": "RAK",
         "name": "Raków Częstochowa",
-        "imagePath": "/src/assets/crests/Rks_rakow_crest_ai.svg"
+        "imagePath": "/src/assets/crests/Rakow_Czestochowa.svg"
     },
     {
         "abbr": "LIV",
@@ -87,76 +87,76 @@
     {
         "abbr": "TOU",
         "name": "Toulouse FC",
-        "imagePath": "/src/assets/crests/Toulouse_FC_2018_logo.svg"
+        "imagePath": "/src/assets/crests/Toulouse_FC.svg"
     },
     {
         "abbr": "USG",
         "name": "Royale Union Saint-Gilloise",
-        "imagePath": "/src/assets/crests/Royale_Union_Saint-Gilloise_logo.svg"
+        "imagePath": "/src/assets/crests/Royale_Union_Saint_Gilloise.svg"
     },
     {
         "abbr": "LASK",
         "name": "Linzer ASK",
-        "imagePath": "/src/assets/crests/LASK-Logo_2023.svg"
+        "imagePath": "/src/assets/crests/Linzer_ASK.svg"
     },
     {
         "abbr": "VIL",
         "name": "Villarreal CF",
-        "imagePath": "/src/assets/crests/Villarreal_CF_logo.svg"
+        "imagePath": "/src/assets/crests/Villarreal_CF.svg"
     },
     {
         "abbr": "REN",
         "name": "Stade Rennais F.C.",
-        "imagePath": "/src/assets/crests/Logo_Stade_Rennais_FC.svg"
+        "imagePath": "/src/assets/crests/Stade_Rennais_FC.svg"
     },
     {
         "abbr": "MHA",
         "name": "Maccabi Haifa F.C.",
-        "imagePath": "/src/assets/crests/Maccabi_Haifa_FC_(logo).svg"
+        "imagePath": "/src/assets/crests/Maccabi_Haifa_FC.svg"
     },
     {
         "abbr": "PAN",
         "name": "Panathinaikos F.C.",
-        "imagePath": "/src/assets/crests/Panathinaikos_F.C._logo.svg"
+        "imagePath": "/src/assets/crests/Panathinaikos_FC.svg"
     },
     {
         "abbr": "SLP",
         "name": "SK Slavia Prague",
-        "imagePath": "/src/assets/crests/SK_Slavia_Praha.svg"
+        "imagePath": "/src/assets/crests/SK_Slavia_Prague.svg"
     },
     {
         "abbr": "ROM",
         "name": "AS Roma",
-        "imagePath": "/src/assets/crests/AS_Roma_Logo_2017.svg"
+        "imagePath": "/src/assets/crests/AS_Roma.svg"
     },
     {
         "abbr": "SER",
         "name": "Servette FC",
-        "imagePath": "/src/assets/crests/Servette_FC_Etoile.svg"
+        "imagePath": "/src/assets/crests/Servette_FC.svg"
     },
     {
         "abbr": "SHE",
         "name": "FC Sheriff Tiraspol",
-        "imagePath": "/src/assets/crests/FC_Sheriff.svg"
+        "imagePath": "/src/assets/crests/FC_Sheriff_Tiraspol.svg"
     },
     {
         "abbr": "LEV",
         "name": "Bayer 04 Leverkusen",
-        "imagePath": "/src/assets/crests/Bayer_04_Leverkusen_logo.svg"
+        "imagePath": "/src/assets/crests/Bayer_04_Leverkusen.svg"
     },
     {
         "abbr": "QRB",
         "name": "Qarabağ FK",
-        "imagePath": "/src/assets/crests/Qarabag_FK_(logo).svg"
+        "imagePath": "/src/assets/crests/Qarabag_FK.svg"
     },
     {
         "abbr": "MOL",
         "name": "Molde FK",
-        "imagePath": "/src/assets/crests/Molde_Fotball_Logo.svg"
+        "imagePath": "/src/assets/crests/Molde_DK.svg"
     },
     {
         "abbr": "HAC",
         "name": "BK Häcken",
-        "imagePath": "/src/assets/crests/BK_Hacken_logo.svg"
+        "imagePath": "/src/assets/crests/BK_Hacken.svg"
     }
 ]
