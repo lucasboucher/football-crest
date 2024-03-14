@@ -15,9 +15,9 @@ import uelLogo from '../assets/uel-logo.svg';
 	<div class="bg-slate-900 rounded-lg p-4 mb-6">
 		Click to download the <span class="italic">SVG</span> of your club crests
 	</div>
-	<div id="ucl" class="h-20 -mt-20"></div>
+	<div id="ucl" class="h-20 -mt-20 pointer-events-none"></div>
 	<div class="flex items-center mb-2">
-		<img src={uclLogo.src} class="h-6 w-6 mr-2" alt="Champions League's logo" />
+		<img src={uclLogo.src} class="h-7 w-7 mr-2" alt="Champions League's logo" loading="eager" />
 		<h2 class="text-lg">Champions League</h2>
 	</div>
 	<div class="grid grid-cols-3 gap-4 sm:grid-cols-5 md:grid-cols-6 lg:grid-cols-7 xl:grid-cols-8 mb-6">
@@ -25,9 +25,9 @@ import uelLogo from '../assets/uel-logo.svg';
 			return <Crest abbr={club.abbr} name={club.name} imagePath={club.imagePath} imageLoading="eager" />
 		})}
 	</div>
-	<div id="ecl" class="h-20 -mt-20"></div>
+	<div id="ecl" class="h-20 -mt-20 pointer-events-none"></div>
 	<div class="flex items-center mb-2">
-		<img src={uelLogo.src} class="h-6 w-6 mr-2" alt="Europa League's logo" />
+		<img src={uelLogo.src} class="h-7 w-7 mr-2" alt="Europa League's logo" loading="lazy" />
 		<h2 class="text-lg">Europa League</h2>
 	</div>
 	<div class="grid grid-cols-3 gap-4 sm:grid-cols-5 md:grid-cols-6 lg:grid-cols-7 xl:grid-cols-8">
