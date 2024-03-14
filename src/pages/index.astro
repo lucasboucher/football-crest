@@ -3,19 +3,33 @@ import Layout from '../layouts/Layout.astro';
 import Crest from '../components/Crest.astro';
 import uclClubs from '../assets/ucl-clubs.json';
 import uelClubs from '../assets/uel-clubs.json';
+import uclLogo from '../assets/ucl-logo.svg';
+import uelLogo from '../assets/uel-logo.svg';
 ---
 
 <Layout title="Football Crest">
+	<div class="flex gap-3 mb-4">
+		<a href="#ucl" class="inline-block rounded-full bg-slate-300 text-black px-3 py-1 hover:bg-slate-50 cursor-pointer text-sm">Champions League</a>
+		<a href="#ecl" class="inline-block rounded-full bg-slate-300 text-black px-3 py-1 hover:bg-slate-50 cursor-pointer text-sm">Europa League</a>
+	</div>
 	<div class="bg-slate-900 rounded-lg p-4 mb-6">
 		Click to download the <span class="italic">SVG</span> of your club crests
 	</div>
-	<h2 class="text-lg mb-2">Champions League</h2>
+	<div id="ucl" class="h-20 -mt-20"></div>
+	<div class="flex items-center mb-2">
+		<img src={uclLogo.src} class="h-6 w-6 mr-2" alt="Champions League's logo" />
+		<h2 class="text-lg">Champions League</h2>
+	</div>
 	<div class="grid grid-cols-3 gap-4 sm:grid-cols-5 md:grid-cols-6 lg:grid-cols-7 xl:grid-cols-8 mb-6">
 		{uclClubs.map((club) => {
 			return <Crest abbr={club.abbr} name={club.name} imagePath={club.imagePath} imageLoading="eager" />
 		})}
 	</div>
-	<h2 class="text-lg mb-2">Europa League</h2>
+	<div id="ecl" class="h-20 -mt-20"></div>
+	<div class="flex items-center mb-2">
+		<img src={uelLogo.src} class="h-6 w-6 mr-2" alt="Europa League's logo" />
+		<h2 class="text-lg">Europa League</h2>
+	</div>
 	<div class="grid grid-cols-3 gap-4 sm:grid-cols-5 md:grid-cols-6 lg:grid-cols-7 xl:grid-cols-8">
 		{uelClubs.map((club) => {
 			return <Crest abbr={club.abbr} name={club.name} imagePath={club.imagePath} imageLoading="lazy" />
