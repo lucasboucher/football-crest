@@ -1,0 +1,22 @@
+/* TEAM */
+	Developer: Lucas Boucher
+	Contact: contact [at] lucasboucher.fr
+	GitHub: /lucasboucher
+    LinkedIn: /in/lucasboucher/
+    Website: https://lucasboucher.fr
+	From: Amiens, France
+
+
+/* THANKS */
+
+	Design inspiration: FeyLogos.com
+    Icon set: Iconoir
+    GitHub boilerplate inspiration: astro-pwa-starter
+    Main crests source: Wikipedia
+	
+
+/* SITE */
+	Last update:2024/03/15
+	Language: English
+	Doctype: HTML5
+	IDE: VS Code, Figma
