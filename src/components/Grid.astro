@@ -1,0 +1,32 @@
+---
+import Crest from '../components/Crest.astro';
+
+import type { ImageMetadata } from 'astro';
+
+interface ClubData {
+    abbr: string;
+    name: string;
+    imagePath: string;
+}
+
+interface Props {
+	championshipName: string;
+	championshipLogo: ImageMetadata;
+	clubsData: ClubData[];
+	imageLoading: "eager" | "lazy";
+}
+
+const { championshipName, championshipLogo, clubsData, imageLoading } = Astro.props;
+---
+
+<div class="mb-6">
+    <div class="flex items-center mb-2">
+        <img src={championshipLogo.src} class="h-7 w-7 mr-2" alt={`${championshipName}'s logo`} loading={imageLoading} />
+        <h2 class="text-lg">{championshipName}</h2>
+    </div>
+    <div class="grid grid-cols-3 gap-4 sm:grid-cols-5 md:grid-cols-6 lg:grid-cols-7 xl:grid-cols-8">
+        {clubsData.map((club: any) => {
+            return <Crest abbr={club.abbr} name={club.name} imagePath={club.imagePath} imageLoading={imageLoading} />
+        })}
+    </div>
+</div>
