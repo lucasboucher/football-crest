@@ -1,16 +1,16 @@
 ---
-import type { ImageMetadata } from 'astro';
-import { Image } from 'astro:assets';
+import type { ImageMetadata } from "astro";
+import { Image } from "astro:assets";
 
 interface Props {
-	abbr: string;
-	name: string;
-	imagePath: string;
-	imageLoading: "eager" | "lazy";
+  abbr: string;
+  name: string;
+  imagePath: string;
+  imageLoading: "eager" | "lazy";
 }
 
 const { abbr, name, imagePath, imageLoading } = Astro.props;
-const images = import.meta.glob<{ default: ImageMetadata }>('/src/assets/crests/*.svg')
+const images = import.meta.glob<{ default: ImageMetadata }>("/src/assets/crests/*.svg");
 let image;
 
 if (images[imagePath]) {
@@ -20,12 +20,21 @@ if (images[imagePath]) {
 }
 ---
 
-<a href={image.default.src} download class="flex flex-col rounded-lg items-center border border-slate-900 py-12 px-4 hover:bg-slate-900 hover:border-slate-800 transition-colors">
-	<Image src={image.default} alt={`${name}'s crest'`} loading={imageLoading} class="h-6 w-6 mb-2 border border-dotted border-violet-700 object-contain" />
-	<h2 class="font-bold uppercase text-sm">
-		{abbr}
-	</h2>
-	<p class="inline-block w-full text-slate-500 text-xs truncate text-center">
-		{name}
-	</p>
+<a
+  href={image.default.src}
+  download
+  class="flex flex-col items-center rounded-lg border border-slate-900 px-4 py-12 transition-colors hover:border-slate-800 hover:bg-slate-900"
+>
+  <Image
+    src={image.default}
+    alt={`${name}'s crest'`}
+    loading={imageLoading}
+    class="mb-2 h-6 w-6 border border-dotted border-violet-700 object-contain"
+  />
+  <h2 class="text-sm font-bold uppercase">
+    {abbr}
+  </h2>
+  <p class="inline-block w-full truncate text-center text-xs text-slate-500">
+    {name}
+  </p>
 </a>
