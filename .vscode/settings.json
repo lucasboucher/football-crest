@@ -1,8 +1,8 @@
 {
-  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "prettier.documentSelectors": ["**/*.astro"],
   "[astro]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
-  "prettier.documentSelectors": ["**/*.astro"],
-  "editor.formatOnSave": true
+  "editor.formatOnSave": true,
+  "eslint.validate": ["javascript", "javascriptreact", "astro", "typescript", "typescriptreact"]
 }

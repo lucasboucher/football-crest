@@ -4,5 +4,5 @@
 
 - SEO
 - PWA
-- Components in folder
-- Eslint
+- Directory based approach
+- Import aliases

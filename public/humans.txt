@@ -4,20 +4,19 @@
 	GitHub: /lucasboucher
     LinkedIn: /in/lucasboucher/
     Website: https://lucasboucher.fr
-	From: Amiens, France
+	From: France
 
 
 /* THANKS */
 
 	Design inspiration: FeyLogos.com
     Icon set: Iconoir
-    GitHub boilerplate inspiration: astro-pwa-starter
     Main crests source: Wikipedia
 	Favicons generator: https://favycon.vercel.app
 	
 
 /* SITE */
-	Last update:2024/03/15
+	Last update: 2024/03/24
 	Language: English
 	Doctype: HTML5
-	IDE: VS Code, Figma
+	IDE: VS Code
