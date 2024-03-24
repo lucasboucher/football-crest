@@ -1,15 +1,39 @@
 ---
+import { SEO } from "astro-seo";
 import { Header } from "@globals";
+
+import { seoConfig } from "@utils/seoConfig";
 ---
 
 <!doctype html>
 <html lang="en" class="scroll-smooth">
   <head>
-    <meta
-      name="description"
-      content="List of football club badges from the European championships for the 2023/24 season"
+    <SEO
+      title={seoConfig.siteName}
+      description={seoConfig.description}
+      openGraph={{
+        basic: {
+          title: seoConfig.siteName,
+          type: seoConfig.og.type,
+          image: seoConfig.image.url
+        },
+        image: {
+          width: seoConfig.image.width,
+          height: seoConfig.image.height,
+          alt: seoConfig.image.alt
+        },
+        optional: {
+          siteName: seoConfig.siteName,
+          description: seoConfig.description
+        }
+      }}
+      twitter={{
+        card: "summary_large_image",
+        image: seoConfig.image.url,
+        title: seoConfig.siteName,
+        description: seoConfig.description
+      }}
     />
-    <title>Football Crest</title>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width" />
     <meta name="generator" content={Astro.generator} />

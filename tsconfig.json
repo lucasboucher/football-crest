@@ -6,7 +6,8 @@
       "@globals": ["src/components/globals"],
       "@components/*": ["src/components/*"],
       "@assets/*": ["src/assets/*"],
-      "@crests/*": ["src/assets/crests/*"]
+      "@crests/*": ["src/assets/crests/*"],
+      "@utils/*": ["utils/*"]
     }
   }
 }
