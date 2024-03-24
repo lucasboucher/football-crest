@@ -7,7 +7,7 @@ export const manifest: Partial<ManifestOptions> = {
     "List of football club badges from the European championships for the 2023/24 season.",
   theme_color: "#6D28D9",
   background_color: "#020617",
-  display: "minimal-ui",
+  display: "standalone",
   icons: [
     {
       src: "/favicons/favicon-72x72.png",
