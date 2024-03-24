@@ -4,5 +4,3 @@
 
 - SEO
 - PWA
-- Directory based approach
-- Import aliases
