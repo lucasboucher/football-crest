@@ -58,11 +58,17 @@ import { seoConfig } from "@utils/seoConfig";
     <meta name="msapplication-config" content="/browserconfig.xml" />
     <meta name="theme-color" content="#020617" />
     <link rel="sitemap" href="/sitemap-index.xml" />
+    <script is:inline src="/registerSW.js"></script>
+    <link rel="manifest" href="/manifest.webmanifest" />
   </head>
   <body class="mb-6 bg-slate-950 pt-20 font-mono text-white selection:bg-violet-700">
     <Header />
     <main class="mx-auto max-w-screen-xl px-4">
       <slot />
     </main>
+
+    <script>
+      // vite-plugin-pwa sw.js
+    </script>
   </body>
 </html>
