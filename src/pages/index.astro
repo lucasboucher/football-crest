@@ -1,49 +1,32 @@
 ---
-import GridCrests from "../components/GridCrests.astro";
-import Header from "../components/Header.astro";
+import Layout from "../components/global/Layout.astro";
 import Navigation from "../components/Navigation.astro";
+import GridCrests from "../components/GridCrests.astro";
 
 import data from "../data.json";
 
-import uclLogo from "../assets/ucl-logo.svg";
-import uelLogo from "../assets/uel-logo.svg";
+import uclLogo from "../assets/svg/ucl-logo.svg";
+import uelLogo from "../assets/svg/uel-logo.svg";
 ---
 
-<!doctype html>
-<html lang="en" class="scroll-smooth">
-  <head>
-    <meta charset="UTF-8" />
-    <meta
-      name="description"
-      content="List of football club badges from the European championships for the 2023/24 season"
+<Layout>
+  <Navigation />
+  <section>
+    <div id="ucl" class="pointer-events-none -mt-20 h-20"></div>
+    <GridCrests
+      championshipName="Champions League"
+      championshipLogo={uclLogo}
+      clubsData={data.ucl}
+      imageLoading="eager"
     />
-    <meta name="viewport" content="width=device-width" />
-    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
-    <meta name="generator" content={Astro.generator} />
-    <title>Football Crest</title>
-  </head>
-  <body class="mb-6 bg-slate-950 pt-20 font-mono text-white selection:bg-violet-700">
-    <Header />
-    <main class="mx-auto max-w-screen-xl px-4">
-      <Navigation />
-      <section>
-        <div id="ucl" class="pointer-events-none -mt-20 h-20"></div>
-        <GridCrests
-          championshipName="Champions League"
-          championshipLogo={uclLogo}
-          clubsData={data.ucl}
-          imageLoading="eager"
-        />
-      </section>
-      <section>
-        <div id="uel" class="pointer-events-none -mt-20 h-20"></div>
-        <GridCrests
-          championshipName="Europa League"
-          championshipLogo={uelLogo}
-          clubsData={data.uel}
-          imageLoading="lazy"
-        />
-      </section>
-    </main>
-  </body>
-</html>
+  </section>
+  <section>
+    <div id="uel" class="pointer-events-none -mt-20 h-20"></div>
+    <GridCrests
+      championshipName="Europa League"
+      championshipLogo={uelLogo}
+      clubsData={data.uel}
+      imageLoading="lazy"
+    />
+  </section>
+</Layout>
