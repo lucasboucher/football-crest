@@ -5,5 +5,4 @@
 - SEO
 - PWA
 - Components in folder
-- Sitemap
 - Eslint

@@ -13,6 +13,7 @@
     Icon set: Iconoir
     GitHub boilerplate inspiration: astro-pwa-starter
     Main crests source: Wikipedia
+	Favicons generator: https://favycon.vercel.app
 	
 
 /* SITE */
